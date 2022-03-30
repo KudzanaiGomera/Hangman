@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Hangman</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel=" stylesheet" href="css/style.css" />
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <!-- first div conatiner with intro -->
+        <div class="wrapper">
+            <h1>HANGMAN</h1>
+
+            <p>Use the alphabet below to guess the word, or click hint to get a clue.</p>
+        </div>
+
+        <!-- second body conatiner -->
+        <div class="wrapper">
+
+            <!-- alphabet buttons that will display letters div -->
+            <div id="buttons">
+            </div>
+
+            <p id="catagoryName"></p>
+
+            <div id="hold">
+            </div>
+
+            <p id="mylives"></p>
+
+            <p id="clue">Hint: </p>
+
+            <canvas id="stickman">This Text will show if the Browser does Not support HTML5 Canvas tag</canvas>
+
+            <div class="container">
+                <button id="hint">Hint</button>
+
+                <button id="reset">Play again</button>
+            </div>
+        </div>
+    </body>
+
+</html>
